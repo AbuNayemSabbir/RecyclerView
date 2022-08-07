@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:background="#ffffff">
+        <androidx.cardview.widget.CardView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/imageview"
+            app:cardCornerRadius="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="centerCrop"
+                android:id="@+id/imageview1"
+                android:src="@drawable/boy"></ImageView>
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:text="Mr. Boy1"
+                android:textColor="#000000"
+                android:id="@+id/textview1"
+                android:textSize="20sp"
+                android:layout_toRightOf="@+id/imageview1"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                ></TextView>
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:id="@+id/textview2"
+                android:text="10:30"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_toRightOf="@+id/textview1"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="75dp"
+                ></TextView>
+
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="30dp"
+                android:id="@+id/textview3"
+                android:text="How Are You"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_toRightOf="@+id/imageview1"
+                android:layout_below="@+id/textview1"
+                android:layout_marginTop="20dp">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:id="@+id/divider"
+                android:text="______________________________"
+                android:textSize="20sp"
+                android:layout_toRightOf="@+id/imageview1"
+                android:layout_below="@+id/imageview1"
+                android:layout_marginTop="-5dp"
+                android:layout_marginLeft="20dp">
+            </TextView>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
